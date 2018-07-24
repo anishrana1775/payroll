@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip.Repository", "EmployeePayslip.Repository\EmployeePayslip.Repository.csproj", "{E3656A7D-22AB-40C6-BE93-BDF0963EFE15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip.Domain", "EmployeePayslip.Domain\EmployeePayslip.Domain.csproj", "{FC3A04A3-62AE-434D-A3FC-3C925CA23F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip.BusinessLogic", "EmployeePayslip.BusinessLogic\EmployeePayslip.BusinessLogic.csproj", "{0BDD46FF-2911-45B1-894A-1F0D1D82FDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip.Test", "EmployeePayslip.Test\EmployeePayslip.Test.csproj", "{EEAC4596-316D-44C5-839D-C809E136C17B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip.Api", "EmployeePayslip.Api\EmployeePayslip.Api.csproj", "{9BD32B52-2099-4EE9-962E-281C7ABF1B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeePayslip.Api.Test", "EmployeePayslip.Api.Test\EmployeePayslip.Api.Test.csproj", "{D11D7903-348E-4AEC-A124-F1E877CAD972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3656A7D-22AB-40C6-BE93-BDF0963EFE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3656A7D-22AB-40C6-BE93-BDF0963EFE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3656A7D-22AB-40C6-BE93-BDF0963EFE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3656A7D-22AB-40C6-BE93-BDF0963EFE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3A04A3-62AE-434D-A3FC-3C925CA23F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3A04A3-62AE-434D-A3FC-3C925CA23F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3A04A3-62AE-434D-A3FC-3C925CA23F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3A04A3-62AE-434D-A3FC-3C925CA23F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDD46FF-2911-45B1-894A-1F0D1D82FDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDD46FF-2911-45B1-894A-1F0D1D82FDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDD46FF-2911-45B1-894A-1F0D1D82FDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDD46FF-2911-45B1-894A-1F0D1D82FDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAC4596-316D-44C5-839D-C809E136C17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAC4596-316D-44C5-839D-C809E136C17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAC4596-316D-44C5-839D-C809E136C17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAC4596-316D-44C5-839D-C809E136C17B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD32B52-2099-4EE9-962E-281C7ABF1B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD32B52-2099-4EE9-962E-281C7ABF1B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD32B52-2099-4EE9-962E-281C7ABF1B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD32B52-2099-4EE9-962E-281C7ABF1B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11D7903-348E-4AEC-A124-F1E877CAD972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11D7903-348E-4AEC-A124-F1E877CAD972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11D7903-348E-4AEC-A124-F1E877CAD972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11D7903-348E-4AEC-A124-F1E877CAD972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {390BD9AC-94D6-4BAF-9B12-35F347D1F292}
+	EndGlobalSection
+EndGlobal
